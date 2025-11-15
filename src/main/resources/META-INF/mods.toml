@@ -1,0 +1,39 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+properties=[
+  ["builtin", "true"]
+]
+
+[[mods]]
+modId="projecte_emc_expansion"
+version="1.0.0"
+displayName="ProjectE EMC Expansion"
+authors="oreoorin6"
+description="Advanced EMC calculation and expansion mod for ProjectE with multi-version support. Automatically assigns EMC values to items without them using intelligent recipe analysis and material-based calculations."
+logoFile="logo.png"
+logoBlur=false
+updateJSONURL="https://raw.githubusercontent.com/oreoorin6/ProjectE-EMC-Expansion/main/update.json"
+displayURL="https://github.com/oreoorin6/ProjectE-EMC-Expansion"
+credits="ProjectE Team for the base EMC system, Forge for the modding framework"
+
+[[dependencies.projecte_emc_expansion]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.3.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.projecte_emc_expansion]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.projecte_emc_expansion]]
+    modId="projecte"
+    mandatory=false
+    versionRange="[PE1.0.1,)"
+    ordering="AFTER"
+    side="BOTH"
