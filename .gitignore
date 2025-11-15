@@ -1,0 +1,60 @@
+# Build output
+build/
+.gradle/
+out/
+libs/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# Runtime
+run/
+logs/
+crash-reports/
+hs_err_pid*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Minecraft development
+/.metadata/
+/eclipse/
+/run-client/
+/run-server/
+/run-data/
+
+# Gradle wrapper (keep gradlew but not gradle dir content)
+!gradle/wrapper/gradle-wrapper.properties
+!gradle/wrapper/gradle-wrapper.jar
+
+# Version specific builds
+*-1.12.2.jar
+*-1.15.2.jar
+*-1.16.5.jar
+*-1.18.2.jar
+*-1.19.2.jar
+*-1.20.1.jar
+*-1.21.1.jar
+
+# Configuration files that shouldn't be committed
+config-local.toml
+test-config.toml
+debug.properties
+
+# Cache and temporary runtime files
+*.cache
+.cache/
+config/projecte-emc-expansion/cache/
